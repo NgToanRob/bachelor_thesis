@@ -410,7 +410,222 @@
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \contentsline {chapter}{\chapternumberline {3}Theoretical study of algorithms}{18}{chapter.3}%
-\contentsline {chapter}{Список использованных источников}{19}{section*.8}%
+\contentsline {section}{\numberline {3.1}Minimum Output Sum of Squared Error (MOSSE)}{18}{section.3.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Formulation of MOSSE}{18}{section*.7}%
+\contentsline {subsubsection}{Solution in the Frequency Domain}{19}{section*.8}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Online Filter Update Mechanism}{20}{section*.9}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Advantages and Limitations}{20}{section*.10}%
+\contentsline {subsubsection}{Conclusion}{20}{section*.11}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {3.2}Kernelized Correlation Filter (KCF)}{21}{section.3.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Scale Adaptation in KCF}{22}{section*.12}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Enhancements in Feature Representations}{22}{section*.13}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Computational Efficiency and Practical Considerations}{23}{section*.14}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Summary of KCF Improvements}{23}{section*.15}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {3.3}Generic Object Tracking Using Regression Networks (GOTURN)}{23}{section.3.3}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Network Architecture}{24}{section*.17}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Loss Function and Training Strategy}{25}{section*.19}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Tracking Mechanism}{25}{section*.20}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Performance and Limitations}{26}{section*.21}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Summary of GOTURN Contributions}{26}{section*.22}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {3.4}Siamese Region Proposal Network (SiamRPN)}{27}{section.3.4}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Network Architecture}{27}{section*.23}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Loss Function and Training Strategy}{28}{section*.25}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Performance and Advantages}{28}{section*.26}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Comparison with GOTURN}{29}{section*.27}%
+\contentsline {subsubsection}{Variants of SiamRPN}{29}{section*.28}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {3.5}Transformer Tracker}{30}{section.3.5}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Network Architecture}{30}{section*.30}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Loss Function and Training Strategy}{32}{section*.32}%
+\contentsline {subsubsection}{Performance and Advantages}{32}{section*.33}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Comparison with CNN-Based Tracker}{32}{section*.34}%
+\contentsline {subsubsection}{Conclusion}{33}{section*.35}%
+\contentsline {chapter}{\chapternumberline {4}Dataset and evaluation metrics}{34}{chapter.4}%
+\contentsline {section}{\numberline {4.1}UOT100 Dataset}{34}{section.4.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {4.2}Evaluation Metrics}{35}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Precision}{35}{subsection.4.2.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Success Rate (IoU-Based Evaluation)}{35}{subsection.4.2.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {subsection}{\numberline {4.2.3}Frames Per Second (FPS)}{36}{subsection.4.2.3}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{Список использованных источников}{37}{section*.38}%
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
