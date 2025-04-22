@@ -3,7 +3,7 @@
 
 In this study, we employ Visual Object Tracking (VOT) methods to address the problem of underwater object tracking. VOT plays a crucial role in tracking objects across video frames, allowing for continuous localization without prior category knowledge. This approach is essential for handling dynamic underwater environments, where objects may undergo significant appearance changes due to lighting variations, occlusions, and water turbulence.
 
-The field of VOT encompasses a diverse range of algorithmic approaches, broadly categorized into traditional correlation filter-based methods and modern deep learning-based techniques. Correlation filter-based trackers leverage frequency-domain operations for efficient tracking [24; 25], whereas deep learning-based methods exploit the representational power of neural networks to enhance robustness against appearance variations and challenging environmental conditions [26; 27]. This section presents a comprehensive theoretical study of key tracking algorithms, providing insights into their underlying principles and methodologies.
+The field of VOT encompasses a diverse range of algorithmic approaches, broadly categorized into traditional correlation filter-based methods and modern deep learning-based techniques. Correlation filter-based trackers leverage frequency-domain operations for efficient tracking \cite{henriques2012exploiting,danelljan2014accurate}, whereas deep learning-based methods exploit the representational power of neural networks to enhance robustness against appearance variations and challenging environmental conditions \cite{danelljan2016discriminative,felzenszwalb2010object}. This section presents a comprehensive theoretical study of key tracking algorithms, providing insights into their underlying principles and methodologies.
 
 
 
@@ -165,7 +165,7 @@ GOTURN, proposed by Held et al.\ \cite{held2016learning}, is a deep learning-bas
 
 Unlike many conventional trackers that perform online adaptation, GOTURN is trained offline on a large dataset of labeled video sequences and images. This enables the tracker to generalize to novel objects at test time without requiring per-sequence fine-tuning \cite{held2016learning}. The model learns a generic mapping between object appearance and motion, making it significantly faster than traditional deep learning-based trackers that involve online learning \cite{held2016learning}.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=1\linewidth]{images/GOTURN_OVERVIEW.png}
     \caption{A deep neural network is trained using a combination of labeled videos and images to track generic objects. At test time, the network generalizes to unseen objects without requiring fine-tuning, achieving real-time speeds of 100 FPS \cite{held2016learning}.}
@@ -175,7 +175,7 @@ Unlike many conventional trackers that perform online adaptation, GOTURN is trai
 \subsubsection{Network Architecture}
 GOTURN consists of a CNN-based regression model that takes as input two consecutive image patches: the search region from the current frame and the target appearance from the previous frame. The network processes these inputs separately through a series of convolutional layers before merging them into a fully connected layer that outputs the coordinates of the tracked object's bounding box in the current frame \cite{held2016learning}.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=1\linewidth]{images/goturn-architecture.png}
     \caption{The GOTURN architecture \cite{held2016learning}.}
@@ -228,7 +228,7 @@ Siamese Region Proposal Network (SiamRPN), introduced by Li et al.\ \cite{li2018
 \subsubsection{Network Architecture}
 SiamRPN follows a Siamese network design, consisting of two identical branches that extract deep feature embeddings from the target template and the search region. The key innovation in SiamRPN is the integration of an RPN module, which enables the network to generate multiple object proposals and select the most confident prediction \cite{li2018high}.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=1\linewidth]{images/SiamRPN-architechture.png}
     \caption{The SiamRPN architecture \cite{li2018high}.}
@@ -281,7 +281,7 @@ Following the success of SiamRPN, several improvements have been proposed to enh
 
 \textbf{SiamRPN++} \cite{li2019siamrpn++} improves upon SiamRPN by utilizing deeper backbones such as ResNet and introducing spatial-aware sampling strategies to mitigate the limitations of small receptive fields in shallow networks. The network also applies depth-wise separable convolutions to enhance efficiency, making it more robust to large-scale variations.
 
-\textbf{SiamBAN (Balanced Anchor-free Network)} \cite{chen2020siamban} replaces the anchor-based RPN module with an anchor-free mechanism, reducing computational complexity while improving accuracy. Instead of predefined anchor boxes, SiamBAN directly predicts the target’s center location and bounding box size, enhancing adaptability to scale variations.
+\textbf{SiamBAN (Balanced Anchor-free Network)} \cite{chen2022siamban} replaces the anchor-based RPN module with an anchor-free mechanism, reducing computational complexity while improving accuracy. Instead of predefined anchor boxes, SiamBAN directly predicts the target’s center location and bounding box size, enhancing adaptability to scale variations.
 
 \textbf{SiamCAR (Classification and Regression)} \cite{guo2020siamcar} further refines the anchor-free tracking paradigm by employing a dense prediction strategy. The network jointly classifies and regresses bounding boxes at each location in the feature map, improving tracking precision while maintaining high speed.
 
@@ -293,7 +293,7 @@ Following the success of SiamRPN, several improvements have been proposed to enh
 Transformer-based models have recently emerged as powerful alternatives to conventional correlation-based tracking frameworks. Unlike traditional approaches such as MOSSE \cite{bolme2010visual} and KCF \cite{henriques2014high}, which rely on handcrafted features and linear correlation, or deep-learning-based methods like SiamRPN \cite{li2018high} and GOTURN \cite{held2016learning}, which incorporate convolutional networks for feature extraction, Transformer-based tracking frameworks leverage self-attention mechanisms to enhance feature fusion and robustness.
 
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=1\linewidth]{images/vitt_architecture.png}
     \caption{Architecture of Transformer tracking framework \cite{chen2021transformer}.}
@@ -313,7 +313,7 @@ The Transformer architecture, originally proposed for natural language processin
 \end{itemize}
 
 % ECA and CFA modules
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.8\linewidth]{images/ecs-cfa.png}
     \caption{Ego-Context Augment (ECA) and Cross-Feature Augment (CFA) modules in Transformer tracking \cite{chen2021transformer}.}

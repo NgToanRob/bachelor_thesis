@@ -1,21 +1,19 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is '0_main.blg'
-[97] biber:340> INFO - === Tue Mar 25, 2025, 00:50:18
+[96] biber:340> INFO - === Thu Apr 17, 2025, 05:08:39
 [119] Biber.pm:420> INFO - Reading '0_main.bcf'
-[301] Biber.pm:994> INFO - Found 48 citekeys in bib section 0
-[319] Biber.pm:4463> INFO - Processing section 0
-[331] Biber.pm:4654> INFO - Looking for bibtex file './biba.bib' for section 0
-[335] bibtex.pm:1713> INFO - LaTeX decoding ...
-[404] bibtex.pm:1519> INFO - Found BibTeX data source './biba.bib'
-[1009] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1009] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1009] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[1009] Biber.pm:4289> INFO - No sort tailoring available for locale 'ru-RU'
-[1054] bbl.pm:676> INFO - Writing '0_main.bbl' with encoding 'UTF-8'
-[1088] bbl.pm:779> INFO - Output to 0_main.bbl
-[1088] Biber.pm:131> WARN - Duplicate entry key: 'danelljan2015learning' in file './biba.bib', skipping ...
-[1088] Biber.pm:131> WARN - Duplicate entry key: 'bertinetto2016fully' in file './biba.bib', skipping ...
-[1089] Biber.pm:131> WARN - Range field 'pages' in entry 'kristan2018sixth' is malformed, falling back to literal
-[1089] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_BkrM/17f87048b0f5dcf363512b385f62514d_2005413.utf8, line 153, warning: 1 characters of junk seen at toplevel
-[1089] Biber.pm:131> WARN - I didn't find a database entry for 'chen2020siamban' (section 0)
-[1089] Biber.pm:133> INFO - WARNINGS: 5
+[290] Biber.pm:994> INFO - Found 47 citekeys in bib section 0
+[310] Biber.pm:4463> INFO - Processing section 0
+[322] Biber.pm:4654> INFO - Looking for bibtex file './biba.bib' for section 0
+[325] bibtex.pm:1713> INFO - LaTeX decoding ...
+[392] bibtex.pm:1519> INFO - Found BibTeX data source './biba.bib'
+[985] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[985] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[985] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[985] Biber.pm:4289> INFO - No sort tailoring available for locale 'ru-RU'
+[1028] bbl.pm:676> INFO - Writing '0_main.bbl' with encoding 'UTF-8'
+[1064] bbl.pm:779> INFO - Output to 0_main.bbl
+[1065] Biber.pm:131> WARN - Duplicate entry key: 'danelljan2015learning' in file './biba.bib', skipping ...
+[1065] Biber.pm:131> WARN - Duplicate entry key: 'bertinetto2016fully' in file './biba.bib', skipping ...
+[1065] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_0uV6/17f87048b0f5dcf363512b385f62514d_1132330.utf8, line 153, warning: 1 characters of junk seen at toplevel
+[1065] Biber.pm:133> INFO - WARNINGS: 3

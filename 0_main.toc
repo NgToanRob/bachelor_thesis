@@ -1,12 +1,12 @@
 \babel@toc {russian}{}\relax 
 \contentsline {chapter}{Введение}{3}{chapter*.2}%
-\contentsline {chapter}{\chapternumberline {1}Problem statement}{5}{chapter.1}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {chapter}{\chapternumberline {1}Problem statement}{6}{chapter.1}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
@@ -41,8 +41,6 @@
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {chapter}{\chapternumberline {2}Overview of Existing Solutions}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Correlation Filter-Based Tracking Methods}{7}{section.2.1}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
@@ -57,6 +55,8 @@
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {chapter}{\chapternumberline {2}Overview of Existing Solutions}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Correlation Filter-Based Tracking Methods}{10}{section.2.1}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
@@ -211,6 +211,7 @@
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {2.2}Deep Learning-Based Tracking Methods}{13}{section.2.2}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
@@ -253,7 +254,6 @@
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {section}{\numberline {2.2}Deep Learning-Based Tracking Methods}{11}{section.2.2}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
@@ -298,6 +298,7 @@
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {2.3}Sensor Fusion-Based Tracking Methods}{17}{section.2.3}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
@@ -334,6 +335,7 @@
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {chapter}{\chapternumberline {3}Theoretical study of algorithms}{19}{chapter.3}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
@@ -342,14 +344,21 @@
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {3.1}Minimum Output Sum of Squared Error (MOSSE)}{19}{section.3.1}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Formulation of MOSSE}{19}{section*.12}%
+\contentsline {subsubsection}{Solution in the Frequency Domain}{20}{section*.13}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Online Filter Update Mechanism}{21}{section*.14}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Advantages and Limitations}{21}{section*.15}%
+\contentsline {subsubsection}{Conclusion}{21}{section*.16}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {3.2}Kernelized Correlation Filter (KCF)}{22}{section.3.2}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
@@ -362,21 +371,24 @@
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Scale Adaptation in KCF}{23}{section*.17}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Enhancements in Feature Representations}{23}{section*.18}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {section}{\numberline {2.3}Sensor Fusion-Based Tracking Methods}{16}{section.2.3}%
+\contentsline {subsubsection}{Computational Efficiency and Practical Considerations}{24}{section*.19}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Summary of KCF Improvements}{24}{section*.20}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
@@ -385,6 +397,7 @@
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {3.3}Generic Object Tracking Using Regression Networks (GOTURN)}{24}{section.3.3}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
@@ -393,6 +406,7 @@
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Network Architecture}{25}{section*.22}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
@@ -403,67 +417,66 @@
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Loss Function and Training Strategy}{26}{section*.24}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Tracking Mechanism}{26}{section*.25}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Performance and Limitations}{27}{section*.26}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {chapter}{\chapternumberline {3}Theoretical study of algorithms}{18}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Minimum Output Sum of Squared Error (MOSSE)}{18}{section.3.1}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Formulation of MOSSE}{18}{section*.7}%
-\contentsline {subsubsection}{Solution in the Frequency Domain}{19}{section*.8}%
+\contentsline {subsubsection}{Summary of GOTURN Contributions}{27}{section*.27}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Online Filter Update Mechanism}{20}{section*.9}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Advantages and Limitations}{20}{section*.10}%
-\contentsline {subsubsection}{Conclusion}{20}{section*.11}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {section}{\numberline {3.2}Kernelized Correlation Filter (KCF)}{21}{section.3.2}%
+\contentsline {section}{\numberline {3.4}Siamese Region Proposal Network (SiamRPN)}{28}{section.3.4}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Network Architecture}{28}{section*.28}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Loss Function and Training Strategy}{29}{section*.30}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Performance and Advantages}{29}{section*.31}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Scale Adaptation in KCF}{22}{section*.12}%
+\contentsline {subsubsection}{Comparison with GOTURN}{30}{section*.32}%
+\contentsline {subsubsection}{Variants of SiamRPN}{30}{section*.33}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Enhancements in Feature Representations}{22}{section*.13}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Computational Efficiency and Practical Considerations}{23}{section*.14}%
+\contentsline {section}{\numberline {3.5}Transformer Tracker}{31}{section.3.5}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Summary of KCF Improvements}{23}{section*.15}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Network Architecture}{31}{section*.35}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {section}{\numberline {3.3}Generic Object Tracking Using Regression Networks (GOTURN)}{23}{section.3.3}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
@@ -472,108 +485,55 @@
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Network Architecture}{24}{section*.17}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Loss Function and Training Strategy}{33}{section*.37}%
+\contentsline {subsubsection}{Performance and Advantages}{33}{section*.38}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {subsubsection}{Comparison with CNN-Based Tracker}{33}{section*.39}%
+\contentsline {subsubsection}{Conclusion}{34}{section*.40}%
+\contentsline {chapter}{\chapternumberline {4}Dataset and evaluation metrics}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}UOT100 Dataset}{35}{section.4.1}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {4.2}Evaluation Metrics}{36}{section.4.2}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Loss Function and Training Strategy}{25}{section*.19}%
+\contentsline {subsection}{\numberline {4.2.1}Average Overlap (AO)}{36}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Success Rate (SR)}{37}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Success Curve}{37}{subsection.4.2.3}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Tracking Mechanism}{25}{section*.20}%
+\contentsline {subsection}{\numberline {4.2.4}Frames Per Second (FPS)}{37}{subsection.4.2.4}%
+\contentsline {chapter}{\chapternumberline {5}Experimental Results and Analysis}{38}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Benchmarking Setup}{38}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Quantitative Results}{38}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Success Curve Visualization}{39}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Qualitative Analysis and Observations under Key Underwater Challenges}{40}{section.5.4}%
+\contentsline {subsubsection}{Low Contrast and Color Attenuation}{40}{section*.44}%
+\contentsline {subsubsection}{ Motion Blur and Turbidity}{41}{section*.46}%
+\contentsline {subsubsection}{Occlusion and Similar-looking Distractors}{42}{section*.48}%
+\contentsline {subsubsection}{Dynamic Backgrounds}{43}{section*.50}%
+\contentsline {subsubsection}{Subconclusion}{45}{section*.52}%
+\contentsline {chapter}{\chapternumberline {6}Conclusion}{46}{chapter.6}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Performance and Limitations}{26}{section*.21}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Summary of GOTURN Contributions}{26}{section*.22}%
+\contentsline {subsubsection}{Practical Implications}{46}{section*.53}%
+\contentsline {subsubsection}{Future Work}{47}{section*.54}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
-\contentsline {section}{\numberline {3.4}Siamese Region Proposal Network (SiamRPN)}{27}{section.3.4}%
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Network Architecture}{27}{section*.23}%
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Loss Function and Training Strategy}{28}{section*.25}%
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Performance and Advantages}{28}{section*.26}%
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Comparison with GOTURN}{29}{section*.27}%
-\contentsline {subsubsection}{Variants of SiamRPN}{29}{section*.28}%
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\contentsline {section}{\numberline {3.5}Transformer Tracker}{30}{section.3.5}%
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Network Architecture}{30}{section*.30}%
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Loss Function and Training Strategy}{32}{section*.32}%
-\contentsline {subsubsection}{Performance and Advantages}{32}{section*.33}%
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\contentsline {subsubsection}{Comparison with CNN-Based Tracker}{32}{section*.34}%
-\contentsline {subsubsection}{Conclusion}{33}{section*.35}%
-\contentsline {chapter}{\chapternumberline {4}Dataset and evaluation metrics}{34}{chapter.4}%
-\contentsline {section}{\numberline {4.1}UOT100 Dataset}{34}{section.4.1}%
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\contentsline {section}{\numberline {4.2}Evaluation Metrics}{35}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Precision}{35}{subsection.4.2.1}%
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Success Rate (IoU-Based Evaluation)}{35}{subsection.4.2.2}%
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Frames Per Second (FPS)}{36}{subsection.4.2.3}%
-\babel@toc {english}{}\relax 
-\babel@toc {russian}{}\relax 
-\contentsline {chapter}{Список использованных источников}{37}{section*.38}%
+\contentsline {chapter}{Список использованных источников}{48}{section*.56}%
 \babel@toc {english}{}\relax 
 \babel@toc {russian}{}\relax 
 \babel@toc {english}{}\relax 

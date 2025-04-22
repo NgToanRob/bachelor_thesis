@@ -1,0 +1,17 @@
+\chapter{Conclusion}
+This thesis has provided a thorough comparative analysis of visual object tracking (VOT) algorithms in challenging underwater environments. By benchmarking classical (MOSSE, KCF), regression-based (GOTURN), Siamese-based (DaSiamRPN, NanoTrack), and Transformer-based (ViT) approaches on the UOT100 dataset \cite{kezebou2019underwater}, the study highlights significant performance differences under real-world conditions including low visibility, motion blur, occlusion, and dynamic backgrounds.
+
+The results demonstrate that modern deep learning trackers—especially NanoTrack and DaSiamRPN—outperform traditional methods in terms of robustness and accuracy. NanoTrack, in particular, offers an excellent trade-off between tracking precision and speed, achieving an AO of 0.510 and SR of 0.572 at over 90 FPS. Such performance makes it well-suited for real-time deployment in practical applications, such as marine biology monitoring, autonomous underwater vehicle (AUV) navigation, and underwater surveillance \cite{qiu2024boundary,elmezain2025advancing}.
+
+However, limitations remain, particularly in handling long-term occlusion and visual distractors. None of the evaluated trackers were able to successfully re-identify targets after full occlusions, which remains a critical obstacle for autonomous operations. Furthermore, some deep models underperformed despite their complexity (e.g., ViT, GOTURN), suggesting that pretraining on terrestrial datasets is insufficient without domain adaptation for underwater imagery.
+
+\subsubsection{Practical Implications} 
+The findings of this study indicate that tracking algorithms such as NanoTrack and DaSiamRPN can be directly applied to real-time systems with modest GPU resources (e.g., Quadro T1000), making them attractive for integration into embedded platforms. Moreover, lightweight classical trackers like MOSSE, despite lower accuracy, may be considered for ultra-low-power edge devices where energy efficiency is critical.
+
+\subsubsection{Future Work}
+
+Future research should explore hybrid approaches that combine the strengths of multiple trackers—for example, integrating NanoTrack's speed with DaSiamRPN's robustness, or incorporating Transformer-based attention modules for global context modeling. Another key direction is the development of re-detection and re-identification modules to recover lost targets after occlusion or tracking drift. Techniques such as long-term memory networks, spatiotemporal transformers, and motion-aware modeling (e.g., Kalman or particle filters \cite{zhang2024webuot}) offer promising avenues.
+
+Furthermore, training models on underwater-specific datasets such as WebUOT-1M \cite{zhang2024webuot} or FishTrack23 \cite{elmezain2025advancing} and leveraging multi-modal inputs (e.g., sonar, depth, or acoustic data) could significantly enhance robustness in complex scenarios.
+
+In conclusion, this work contributes valuable insights into the comparative performance of state-of-the-art tracking algorithms in underwater domains, offering practical guidance for real-world system deployment and setting the stage for future advancements in resilient underwater perception systems.
